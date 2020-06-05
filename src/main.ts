@@ -8,5 +8,5 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
+platformBrowserDynamic().bootstrapModule(AppModule) // AppModule --> angular app backbone --> contains all app components and parts.
   .catch(err => console.error(err));

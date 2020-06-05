@@ -1,0 +1,35 @@
+<div style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+    <div>
+        <img [src]="imagesArray[selectedImageIndex]"  class="sliderImage"/>
+    </div> 
+<div class="btnsContainer"> 
+    <button class="btnStyle" (click)="prev()">prev</button>
+    <button class="btnStyle"  (click)="next()">next</button>  
+</div>  
+</div>
+
+
+
+<div style="display: flex;flex: 1;height: 200px;flex-direction: row;">
+    <div style="display: flex;flex: 1;background-color: aquamarine;justify-content: center;align-items: center;flex-direction: column;">
+    <h2 style="font-size: 2em;">first div</h2>
+    <h2>first div</h2>
+    </div>
+    <div style="display: flex;flex: 2;background-color: cornflowerblue;justify-content: center;align-items: center;">
+        <h2>second div</h2>
+    </div>
+    <div style="display: flex;flex: 1;background-color: grey;justify-content: center;align-items: center;">
+        <h2>third div</h2>
+       </div>
+</div>
+
+<!-- user input -->
+
+
+<!-- html element reference -->
+
+<input type="text" #username (keyup)="getUserName(username)" />
+
+<!-- $event variable  -->
+
+<!-- <input type="text"  (keyup)="getUserName($event)" /> -->

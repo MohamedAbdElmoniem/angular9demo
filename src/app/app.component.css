@@ -1,0 +1,21 @@
+.myDiv{
+    height: 200px;
+    background-color: dimgray;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myDiv2{
+    height: 200px;
+    background-color: skyblue;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
